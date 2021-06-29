@@ -1,5 +1,5 @@
-# CW-SOBA
-Contextual Word embeddings in Semi-automatic Ontology Building for Aspect based sentiment analysis
+# SADCWEB-SOBA
+Sentiment-Aware Deep Contextual Word Embeddings-Based Semi-Automatic Ontology Building for Aspect-Based Sentiment Classification
 
 ## Recommended software
 - Anaconda 3: https://www.anaconda.com/products/individual
