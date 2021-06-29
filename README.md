@@ -8,6 +8,7 @@ Contextual Word embeddings in Semi-automatic Ontology Building for Aspect based 
 - Protege: https://protege.stanford.edu/
 - Java Eclipse IDE: https://www.eclipse.org/downloads/packages/release/kepler/sr1/eclipse-ide-java-developers
 - Notepad++: https://notepad-plus-plus.org/downloads/
+- 7zip: https://www.7-zip.org/
 
 ### GPU acceleration
 Follow these steps to set up CUDA: https://towardsdatascience.com/installing-tensorflow-with-cuda-cudnn-and-gpu-support-on-windows-10-60693e46e781
