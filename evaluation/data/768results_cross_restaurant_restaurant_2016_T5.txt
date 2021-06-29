@@ -1,0 +1,170 @@
+restaurant to restaurant using fold 1
+---
+Ontology. Aspects classified: 113.0, Accuracy: 0.8849557522123894
+---
+Train data. Positive: 1621, Neutral: 93, Negative: 561, Total: 2275
+Test data. Positive: 88, Neutral: 8, Negative: 46, Total: 142
+---
+LCR-Rot-Hop++. Train accuracy: 0.920000, Test accuracy: 0.830986, Combined accuracy: 0.854902
+Maximum. Test accuracy: 0.866197, Combined accuracy: 0.874510
+---
+Test results.
+Positive. Correct: 78, Incorrect: 10, Total: 88
+Neutral. Correct: 0, Incorrect: 8, Total: 8
+Negative. Correct: 40, Incorrect: 6, Total: 46
+---
+Runtime: 2094.5927126407623 seconds.
+
+restaurant to restaurant using fold 2
+---
+Ontology. Aspects classified: 95.0, Accuracy: 0.8526315789473684
+---
+Train data. Positive: 1621, Neutral: 93, Negative: 561, Total: 2275
+Test data. Positive: 107, Neutral: 9, Negative: 44, Total: 160
+---
+LCR-Rot-Hop++. Train accuracy: 0.946813, Test accuracy: 0.850000, Combined accuracy: 0.850980
+Maximum. Test accuracy: 0.856250, Combined accuracy: 0.854902
+---
+Test results.
+Positive. Correct: 96, Incorrect: 11, Total: 107
+Neutral. Correct: 1, Incorrect: 8, Total: 9
+Negative. Correct: 39, Incorrect: 5, Total: 44
+---
+Runtime: 2150.289952278137 seconds.
+
+restaurant to restaurant using fold 3
+---
+Ontology. Aspects classified: 114.0, Accuracy: 0.8245614035087719
+---
+Train data. Positive: 1622, Neutral: 93, Negative: 561, Total: 2276
+Test data. Positive: 91, Neutral: 6, Negative: 43, Total: 140
+---
+LCR-Rot-Hop++. Train accuracy: 0.925308, Test accuracy: 0.828571, Combined accuracy: 0.826772
+Maximum. Test accuracy: 0.850000, Combined accuracy: 0.838583
+---
+Test results.
+Positive. Correct: 84, Incorrect: 7, Total: 91
+Neutral. Correct: 0, Incorrect: 6, Total: 6
+Negative. Correct: 32, Incorrect: 11, Total: 43
+---
+Runtime: 2122.8679163455963 seconds.
+
+restaurant to restaurant using fold 4
+---
+Ontology. Aspects classified: 127.0, Accuracy: 0.8818897637795275
+---
+Train data. Positive: 1622, Neutral: 93, Negative: 561, Total: 2276
+Test data. Positive: 77, Neutral: 8, Negative: 42, Total: 127
+---
+LCR-Rot-Hop++. Train accuracy: 0.944640, Test accuracy: 0.850394, Combined accuracy: 0.866142
+Maximum. Test accuracy: 0.858268, Combined accuracy: 0.870079
+---
+Test results.
+Positive. Correct: 72, Incorrect: 5, Total: 77
+Neutral. Correct: 1, Incorrect: 7, Total: 8
+Negative. Correct: 35, Incorrect: 7, Total: 42
+---
+Runtime: 2097.248996734619 seconds.
+
+restaurant to restaurant using fold 5
+---
+Ontology. Aspects classified: 120.0, Accuracy: 0.8916666666666667
+---
+Train data. Positive: 1622, Neutral: 94, Negative: 562, Total: 2278
+Test data. Positive: 81, Neutral: 9, Negative: 42, Total: 132
+---
+LCR-Rot-Hop++. Train accuracy: 0.947322, Test accuracy: 0.833333, Combined accuracy: 0.861111
+Maximum. Test accuracy: 0.856061, Combined accuracy: 0.873016
+---
+Test results.
+Positive. Correct: 72, Incorrect: 9, Total: 81
+Neutral. Correct: 2, Incorrect: 7, Total: 9
+Negative. Correct: 36, Incorrect: 6, Total: 42
+---
+Runtime: 2129.7397854328156 seconds.
+
+restaurant to restaurant using fold 6
+---
+Ontology. Aspects classified: 114.0, Accuracy: 0.9122807017543859
+---
+Train data. Positive: 1622, Neutral: 94, Negative: 562, Total: 2278
+Test data. Positive: 86, Neutral: 6, Negative: 46, Total: 138
+---
+LCR-Rot-Hop++. Train accuracy: 0.951712, Test accuracy: 0.782609, Combined accuracy: 0.841270
+Maximum. Test accuracy: 0.826087, Combined accuracy: 0.865079
+---
+Test results.
+Positive. Correct: 79, Incorrect: 7, Total: 86
+Neutral. Correct: 0, Incorrect: 6, Total: 6
+Negative. Correct: 29, Incorrect: 17, Total: 46
+---
+Runtime: 2152.22207570076 seconds.
+
+restaurant to restaurant using fold 7
+---
+Ontology. Aspects classified: 119.0, Accuracy: 0.8991596638655462
+---
+Train data. Positive: 1622, Neutral: 94, Negative: 562, Total: 2278
+Test data. Positive: 80, Neutral: 8, Negative: 45, Total: 133
+---
+LCR-Rot-Hop++. Train accuracy: 0.912643, Test accuracy: 0.872180, Combined accuracy: 0.884921
+Maximum. Test accuracy: 0.887218, Combined accuracy: 0.892857
+---
+Test results.
+Positive. Correct: 78, Incorrect: 2, Total: 80
+Neutral. Correct: 0, Incorrect: 8, Total: 8
+Negative. Correct: 38, Incorrect: 7, Total: 45
+---
+Runtime: 2151.5701150894165 seconds.
+
+restaurant to restaurant using fold 8
+---
+Ontology. Aspects classified: 120.0, Accuracy: 0.8666666666666667
+---
+Train data. Positive: 1622, Neutral: 94, Negative: 562, Total: 2278
+Test data. Positive: 85, Neutral: 8, Negative: 39, Total: 132
+---
+LCR-Rot-Hop++. Train accuracy: 0.942493, Test accuracy: 0.780303, Combined accuracy: 0.821429
+Maximum. Test accuracy: 0.795455, Combined accuracy: 0.829365
+---
+Test results.
+Positive. Correct: 74, Incorrect: 11, Total: 85
+Neutral. Correct: 1, Incorrect: 7, Total: 8
+Negative. Correct: 28, Incorrect: 11, Total: 39
+---
+Runtime: 2253.5401582717896 seconds.
+
+restaurant to restaurant using fold 9
+---
+Ontology. Aspects classified: 112.0, Accuracy: 0.9017857142857143
+---
+Train data. Positive: 1622, Neutral: 94, Negative: 562, Total: 2278
+Test data. Positive: 85, Neutral: 9, Negative: 46, Total: 140
+---
+LCR-Rot-Hop++. Train accuracy: 0.913082, Test accuracy: 0.807143, Combined accuracy: 0.849206
+Maximum. Test accuracy: 0.807143, Combined accuracy: 0.849206
+---
+Test results.
+Positive. Correct: 79, Incorrect: 6, Total: 85
+Neutral. Correct: 0, Incorrect: 9, Total: 9
+Negative. Correct: 34, Incorrect: 12, Total: 46
+---
+Runtime: 2213.3677418231964 seconds.
+
+restaurant to restaurant using fold 10
+---
+Ontology. Aspects classified: 107.0, Accuracy: 0.8878504672897196
+---
+Train data. Positive: 1622, Neutral: 94, Negative: 562, Total: 2278
+Test data. Positive: 89, Neutral: 10, Negative: 46, Total: 145
+---
+LCR-Rot-Hop++. Train accuracy: 0.947322, Test accuracy: 0.827586, Combined accuracy: 0.853175
+Maximum. Test accuracy: 0.855172, Combined accuracy: 0.869048
+---
+Test results.
+Positive. Correct: 83, Incorrect: 6, Total: 89
+Neutral. Correct: 1, Incorrect: 9, Total: 10
+Negative. Correct: 36, Incorrect: 10, Total: 46
+---
+Runtime: 2330.4320151805878 seconds.
+
