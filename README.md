@@ -32,7 +32,7 @@ Set-up steps:
 - Download JavaFX SDK 16 from: https://gluonhq.com/products/javafx/
 - Get the Yelp data set: https://www.yelp.com/dataset, and extract the files into `externalData`
 - Get the corpus data using the required template. In `MyCorpus.java`, change `boolean t5` and `boolean training` in `getDomainTrainingData()` to the desired values. Change `String output_filename` to the desired output name. Set `int no_reviews` to the desired number of reviews (for word embeddings, 2000 is advised; for training LMs, 50.000-200.000 is advised).
-- Fine-tune and post-train LMs using 
+- Fine-tune and post-train LMs using `FineTune.ipynb` (for BERT and RoBERTa) and `t5FineTune.ipynb` (for T5).
 
 ## Evaluation
 The evaluation code is based on https://github.com/stefanvanberkum/CD-ABSC.
