@@ -21,6 +21,8 @@ Google Colab is needed for creating word embeddings and fine-tuning language mod
 
 Now follow the virtual environment set-up instructions from https://github.com/stefanvanberkum/CD-ABSC#set-up-instructions. Make sure to use this repository to include in the virtual environment. It is advised to leave the `ontology` directory out of the virtual environment, as no `.ipynb` files are present. _Note: Python 3.5 is highly recommended for the virtual environment, as higher versions often don't support TensorFlow 1 anymore. Using more recent versions of Python will throw a lot of errors during the installation of the packages in requirements.txt_
 
+Set-up local runtime with Google Colab using the command in `jupyter_colab.txt`. Copy the localhost link into the runtime of Google Colab.
+
 ## Ontology building
 The ontology building code is based on https://github.com/MarkRademaker/DCWEB-SOBA. We added new functionality and fixed bugs. The ontology building code can be found in the `ontology` directory.
 
