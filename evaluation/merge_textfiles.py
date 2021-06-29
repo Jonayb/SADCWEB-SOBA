@@ -1,5 +1,5 @@
-no_files = 38
-filename = "BERT_base_restaurant_2015"
+no_files = 38  # number of files that were created by getBERT code (1 plus the highest numbered file)
+filename = "BERT_base_restaurant_2015"  # the base name of the loose files
 filenames = list()
 for i in range(no_files):
     filenametemp = filename + '_' + str(i) + ".txt"
