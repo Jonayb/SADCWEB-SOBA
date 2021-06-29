@@ -16,6 +16,9 @@ Follow these steps to set up CUDA: https://towardsdatascience.com/installing-ten
 - NVIDA Nsight Visual Studio Edition: (https://developer.nvidia.com/nsight-visual-studio-edition)
 - Visual Studio 2017: https://visualstudio.microsoft.com/vs/older-downloads/
 
+### Google Colab
+- In anaconda, create a new environment using Python 3.5. Note: newest version of Python does not support older TensorFlow versions.
+
 
 ## Evaluation
 The evaluation code is mainly based on 
