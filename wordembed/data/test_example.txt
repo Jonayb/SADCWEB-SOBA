@@ -1,0 +1,10 @@
+1,/,The pizza was too cold, I sent dirt back to the kitchen,|,
+2,/,They served the food nice and hot, delicious,|,
+3,/,The beers we’re warm, I would go drink at a different place,|,
+4,/,The nacho’s were great, they were very cheap as well,|,
+5,/,This inside looked very cheap, I wouldn’t’t recommend it,|,
+6,/,The coffee was nicely hot, thank you Starbucks,|,
+7,/,The meat that was served was dry, it tasted like a rubber,|,
+8,/,The beers were ice cold, they’re great ,|,
+9,/,The restaurant was poorly decorated, it didn’t fell very warm,|,
+10,/,It was raining outside, luckily we were nice and dry
