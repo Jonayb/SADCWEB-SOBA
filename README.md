@@ -6,6 +6,7 @@ Contextual Word embeddings in Semi-automatic Ontology Building for Aspect based 
 - Python 3: https://www.python.org/downloads/
 - PyCharm: https://www.jetbrains.com/pycharm/
 - Protege: https://protege.stanford.edu/
+- Java: https://www.oracle.com/nl/java/technologies/javase-downloads.html
 - Java Eclipse IDE: https://www.eclipse.org/downloads/packages/release/kepler/sr1/eclipse-ide-java-developers
 - Notepad++: https://notepad-plus-plus.org/downloads/
 - 7zip: https://www.7-zip.org/
@@ -27,7 +28,7 @@ Set-up local runtime with Google Colab using the command in `jupyter_colab.txt`.
 ## Ontology building
 The ontology building code is based on https://github.com/MarkRademaker/DCWEB-SOBA. We added new functionality and fixed bugs. The ontology building code can be found in the `ontology` directory.
 
-Set-up steps:
+Ontology building steps:
 - Import `ontology` directory as a Maven project into Eclipse IDE. Make sure the pom.xml has no errors before running any code.
 - Download JavaFX SDK 16 from: https://gluonhq.com/products/javafx/
 - Get the Yelp data set: https://www.yelp.com/dataset, and extract the files into `externalData`
@@ -36,9 +37,24 @@ Set-up steps:
 - Create word embeddings of 2000 reviews using `getWordEmbeddingsBERT` (for BERT and RoBERTa) and `getWordEmbeddingsT5` (for T5) in `wordembed`.
 - Import normal and fine-tuned word embeddings in `TermSelectionAlgo.java` by uncommenting code in constructor. Change `String wordEmbeddings` and `String wordEmbeddingsFT` to the desired files. Make sure these files do not exceed ~1GB as maximum heap space can not be exceeded. 
 - Change MCS thresholds to desired values in `TermSelectionAlgo.java` and `OntologyBuilder.java`.
-- Now comment out the uncommented code in `TermSelectionAlgo.java` and run `MainOntologyBuilder.java`.
+- Now comment out the uncommented code in `TermSelectionAlgo.java` and run `MainOntologyBuilder.java`. Follow the steps of the program to create the ontology. 
 - Move the created ontologies in `output` to the `evaluation/data/externalData` directory and start evaluation.
 
 ## Evaluation
-The evaluation code is based on https://github.com/stefanvanberkum/CD-ABSC.
+The evaluation code is based on https://github.com/stefanvanberkum/CD-ABSC. We added new funtionality and fixed bugs. The evaluation code can be found in the `evaluation` directory.
+
+Set-up steps:
+- Change the path of `java_path` in `ontology.py` to the java installation.
+- Download required files:
+  -  Stanford CoreNLP parser: https://nlp.stanford.edu/software/stanford-parser-full-2018-02-27.zip
+  -  Stanford CoreNLP Language Models: https://nlp.stanford.edu/software/stanford-english-corenlp-2018-02-27-models.jar
+-  Extract the zip and update `path_to_jar` and `path_to_models_jar` in `ontology.py` to these files.
+-  When using k-fold cross validation, set `rest_rest_cross=True`.
+-  Set the Python intepreter in PyCharm to the Python 3.5 .exe from the virtual environment. 
+-  Get the raw data for the embeddings using `raw_data.py`. For the restaurant domain, SemEval 2014, SemEval 2015, and SemEval 2016 are already included in `externalData/BERT/restaurant`.
+-  Get BERT embeddings, using the files in `getBERT` with a local runtime in Google Colab. This will generate multiple embedding files, which can be concetenated using `merge_textfiles.py`.
+-  Run `prepare_bert.py` to prepare BERT word embeddings. Make sure to change `train_lines` to the number of desired lines for the training file (3x number of training sentences).
+-  Tune hyperparameters using `main_hyper.py`.
+-  Run `main_test.py` using your desired settings. Set `write_result=True` to make sure results are written to a text file.
+-  Add accuracies to `evaluation.py` and run the code to obtain evaluation statistics, Welch's t-test statistics and a Box-Whisker plot after k-fold cross validation.
 
