@@ -21,5 +21,13 @@ Google Colab is needed for creating word embeddings and fine-tuning language mod
 
 Now follow the virtual environment set-up instructions from https://github.com/stefanvanberkum/CD-ABSC#set-up-instructions. Make sure to use this repository to include in the virtual environment. _Note: Python 3.5 is highly recommended for the virtual environment, as higher versions often don't support TensorFlow 1 anymore. Using more recent versions of Python will throw a lot of errors during the installation of the packages in requirements.txt_
 
+## Ontology building
+The ontology building code is based on https://github.com/MarkRademaker/DCWEB-SOBA. We added some new functionality and fixed some bugs. The ontology building code can be found in the `ontology` directory.
+
+Set-up steps:
+- Get the Yelp data set: https://www.yelp.com/dataset
+- 
+
 ## Evaluation
-The evaluation code is mainly based on 
+The evaluation code is based on https://github.com/stefanvanberkum/CD-ABSC.
+
