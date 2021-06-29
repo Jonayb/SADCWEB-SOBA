@@ -17,7 +17,7 @@ Follow these steps to set up CUDA: https://towardsdatascience.com/installing-ten
 - Visual Studio 2017: https://visualstudio.microsoft.com/vs/older-downloads/
 
 ### Google Colab
-Google Colab is needed for creating word embeddings and fine-tuning language models (LMs). A local runtime is advised for creating word-embeddings, as Google's TPU's are slow. When you don't have a GPU on your device, use a hosted runtime with Google's GPU's (recommended for fine-tuning LMs).
+Google Colab is needed for creating word embeddings and fine-tuning language models (LMs). A local runtime is advised for creating word-embeddings, as Google's TPUs are slow. When you don't have a GPU on your device, use a hosted runtime with Google's GPU's (recommended for fine-tuning LMs).
 
 Now follow the virtual environment set-up instructions from https://github.com/stefanvanberkum/CD-ABSC#set-up-instructions. Make sure to use this repository to include in the virtual environment. It is advised to leave the `ontology` directory out of the virtual environment, as no `.ipynb` files are present. _Note: Python 3.5 is highly recommended for the virtual environment, as higher versions often don't support TensorFlow 1 anymore. Using more recent versions of Python will throw a lot of errors during the installation of the packages in requirements.txt_
 
