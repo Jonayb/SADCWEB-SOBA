@@ -37,7 +37,7 @@ Set-up steps:
 - Import normal and fine-tuned word embeddings in `TermSelectionAlgo.java` by uncommenting code in constructor. Change `String wordEmbeddings` and `String wordEmbeddingsFT` to the desired files. Make sure these files do not exceed ~1GB as maximum heap space can not be exceeded. 
 - Change MCS thresholds to desired values in `TermSelectionAlgo.java` and `OntologyBuilder.java`.
 - Now comment out the uncommented code in `TermSelectionAlgo.java` and run `MainOntologyBuilder.java`.
-- Move the created ontologies in `output` to the `evaluation/data` directory and start evaluation.
+- Move the created ontologies in `output` to the `evaluation/data/externalData` directory and start evaluation.
 
 ## Evaluation
 The evaluation code is based on https://github.com/stefanvanberkum/CD-ABSC.
