@@ -17,8 +17,9 @@ Follow these steps to set up CUDA: https://towardsdatascience.com/installing-ten
 - Visual Studio 2017: https://visualstudio.microsoft.com/vs/older-downloads/
 
 ### Google Colab
-- In anaconda, create a new environment using Python 3.5. Note: newest version of Python does not support older TensorFlow versions.
-
+Google Colab is needed for creating word embeddings and fine-tuning language models. A local runtime is adivsed for creating word-embeddings, as Google's TPU's are slow. When you don't have a GPU on your device, use a hosted runtime with Google's GPU's (recommended for fine-tuning language models).
+- In anaconda, create a new environment using Python 3.5. _Note: newest version of Python does not support older TensorFlow versions. Python 3.5 is highly recommended._
+- 
 
 ## Evaluation
 The evaluation code is mainly based on 
