@@ -41,7 +41,7 @@ Ontology building steps:
 - Move the created ontologies in `output` to the `evaluation/data/externalData` directory and start evaluation.
 
 ## Evaluation
-The evaluation code is based on https://github.com/stefanvanberkum/CD-ABSC. We added new funtionality and fixed bugs. The evaluation code can be found in the `evaluation` directory. The 8 ontologies we evaluated in our research are included in the externalData directory. The four ontologies we created have prefix 'final-', the four ontologies from the literature have prefix 'restaurant-'.
+The evaluation code is based on https://github.com/stefanvanberkum/CD-ABSC. We added new funtionality and fixed bugs. The evaluation code can be found in the `evaluation` directory. The 8 ontologies we evaluate in our research are included in the externalData directory. The four ontologies we have created have prefix 'final-', the four ontologies from the literature have prefix 'restaurant-'.
 
 Set-up steps:
 - Change the path of `java_path` in `ontology.py` to the java installation.
