@@ -15,7 +15,7 @@ Sentiment-Aware Deep Contextual Word Embeddings-Based Semi-Automatic Ontology Bu
 Follow these steps to set up CUDA: https://towardsdatascience.com/installing-tensorflow-with-cuda-cudnn-and-gpu-support-on-windows-10-60693e46e781
 - NVIDIA CUDA 10.0: https://developer.nvidia.com/cuda-10.0-download-archive
 - CuDNN 7.6.5.32 (for CUDA 10.0): https://developer.nvidia.com/cudnn (membership required)
-- NVIDA Nsight Visual Studio Edition: (https://developer.nvidia.com/nsight-visual-studio-edition)
+- NVIDA Nsight Visual Studio Edition: https://developer.nvidia.com/nsight-visual-studio-edition
 - Visual Studio 2017: https://visualstudio.microsoft.com/vs/older-downloads/
 
 ### Google Colab
