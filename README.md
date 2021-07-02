@@ -56,5 +56,5 @@ Set-up steps:
 -  Run `prepare_bert.py` to prepare BERT word embeddings. Make sure to change `train_lines` to the number of desired lines for the training file (3x number of training sentences).
 -  Tune hyperparameters using `main_hyper.py`.
 -  Run `main_test.py` using your desired settings. Set `write_result=True` to make sure results are written to a text file.
--  Add accuracies to `evaluation.py` and run the code to obtain evaluation statistics, Welch's t-test statistics and a Box-Whisker plot after k-fold cross validation.
+-  Add accuracies to `evaluation.py` and run the code to obtain evaluation statistics, paired t-test statistics and a Box-Whisker plot after k-fold cross validation.
 
