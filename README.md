@@ -49,7 +49,7 @@ Set-up steps:
   -  Stanford CoreNLP parser: https://nlp.stanford.edu/software/stanford-parser-full-2018-02-27.zip
   -  Stanford CoreNLP Language Models: https://nlp.stanford.edu/software/stanford-english-corenlp-2018-02-27-models.jar
 -  Extract the zip and update `path_to_jar` and `path_to_models_jar` in `ontology.py` to these files.
--  When using k-fold cross validation, set `rest_rest_cross=True`.
+-  When using k-fold cross-validation, set `rest_rest_cross=True`.
 -  Set the Python intepreter in PyCharm to the Python 3.5 .exe from the virtual environment. 
 -  Get the raw data for the embeddings using `raw_data.py`. For the restaurant domain, SemEval 2014, SemEval 2015, and SemEval 2016 are already included in `externalData/BERT/restaurant`.
 -  Get BERT embeddings, using the files in `getBERT` with a local runtime in Google Colab. This will generate multiple embedding files, which can be concetenated using `merge_textfiles.py`.
