@@ -60,13 +60,11 @@ Set-up steps:
 
 ## Future research
 For future research, we consider the following directions to be interesting. 
-- Adapt the ontology builder to create ontologies for new domains. The word embedding and fine-tuning methods are already ready for new domains.
-- Use larger datasets for model fine-tuning and post-training.
+- Adapt the ontology builder to create ontologies for new domains. The word embedding and fine-tuning methods are already in a fit state for new domains.
+- Use larger data sets for model fine-tuning and post-training.
 - (See whether evaluation code improves with T5 word embeddings instead of BERT embeddings.)
 
 ## References
 Our work is related to the following research.
 - Trusca, M. M., Wassenberg, D., Frasincar, F., and Dekker, R. (2020). A hybrid approach for aspect-based sentiment analysis using deep contextual word embeddings and hierarchical attention. In Web Engineering: 20th International Conference (ICWE 2020), volume 12128 of LNCS, pages 365-380. Springer.
-- ten Haaf, F., Claassen, C., Eschauzier, R., Tjan, J., Buijs, D., Frasincar, F., and Schouten, K.
-(2021). WEB-SOBA: Word embeddings-based semi-automatic ontology building for aspect-based sentiment classiffication. In 18th Extended Semantic Web Conference (ESWC 2021) -
-Research Track, volume 12731 of LNCS, pages 340-355. Springer.
+- ten Haaf, F., Claassen, C., Eschauzier, R., Tjan, J., Buijs, D., Frasincar, F., and Schouten, K. (2021). WEB-SOBA: Word embeddings-based semi-automatic ontology building for aspect-based sentiment classiffication. In 18th Extended Semantic Web Conference (ESWC 2021) - Research Track, volume 12731 of LNCS, pages 340-355. Springer.
