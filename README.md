@@ -34,7 +34,7 @@ Ontology building steps:
 - Get the Yelp data set: https://www.yelp.com/dataset, and extract the files into `externalData`
 - Get the corpus data using the required template. In `MyCorpus.java`, change `boolean t5` and `boolean training` in `getDomainTrainingData()` to the desired values. Change `String output_filename` to the desired output name. Set `int no_reviews` to the desired number of reviews (for word embeddings, 2000 is advised; for training LMs, 50.000-200.000 is advised).
 - Fine-tune and post-train LMs using `FineTune.ipynb` (for BERT and RoBERTa) and `t5FineTune.ipynb` (for T5) in `wordembed`. Add these checkpoints to `models` directory in `wordembed` and put the files in `largeData`. Our models are available here: https://drive.google.com/drive/folders/1s2NIQOAYe-vAfw-lcV0IGU_w-CUtfYpu?usp=sharing
-- Create word embeddings of 2000 reviews using `getWordEmbeddingsBERT` (for BERT and RoBERTa) and `getWordEmbeddingsT5` (for T5) in `wordembed`.
+- Create word embeddings of 2000 reviews using `getWordEmbeddingsBERT` (for BERT and RoBERTa) and `getWordEmbeddingsT5` (for T5) in `wordembed`. The file `getWordEmbeddingBert.py` is fine-tuned for low RAM systems. 
 - Import normal and fine-tuned word embeddings in `TermSelectionAlgo.java` by uncommenting code in constructor. Change `String wordEmbeddings` and `String wordEmbeddingsFT` to the desired files. Make sure these files do not exceed ~1GB as maximum heap space can not be exceeded. 
 - Change MCS thresholds to desired values in `TermSelectionAlgo.java` and `OntologyBuilder.java`.
 - Now comment out the uncommented code in `TermSelectionAlgo.java` and run `MainOntologyBuilder.java`. Follow the steps of the program to create the ontology. 
@@ -58,3 +58,15 @@ Set-up steps:
 -  Run `main_test.py` using your desired settings. Set `write_result=True` to make sure results are written to a text file.
 -  Add accuracies to `evaluation.py` and run the code to obtain evaluation statistics, paired t-test statistics and a Box-Whisker plot after k-fold cross-validation.
 
+## Future research
+For future research, we consider the following directions to be interesting. 
+- Adapt the ontology builder to create ontologies for new domains. The word embedding and fine-tuning methods are already ready for new domains.
+- Use larger datasets for model fine-tuning and post-training.
+- (See whether evaluation code improves with T5 word embeddings instead of BERT embeddings.)
+
+## References
+Our work is related to the following research.
+- Trusca, M. M., Wassenberg, D., Frasincar, F., and Dekker, R. (2020). A hybrid approach for aspect-based sentiment analysis using deep contextual word embeddings and hierarchical attention. In Web Engineering: 20th International Conference (ICWE 2020), volume 12128 of LNCS, pages 365-380. Springer.
+- ten Haaf, F., Claassen, C., Eschauzier, R., Tjan, J., Buijs, D., Frasincar, F., and Schouten, K.
+(2021). WEB-SOBA: Word embeddings-based semi-automatic ontology building for aspect-based sentiment classiffication. In 18th Extended Semantic Web Conference (ESWC 2021) -
+Research Track, volume 12731 of LNCS, pages 340-355. Springer.
